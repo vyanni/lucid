@@ -14,6 +14,7 @@ const config: Config = {
         'map-blue-light': '#a8c8d8',
       },
       fontFamily: {
+        elms: ['var(--font-elms)', 'sans-serif'],
         serif: ['Garamond', 'Georgia', 'serif'],
       },
     },

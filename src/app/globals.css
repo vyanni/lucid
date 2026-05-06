@@ -6,6 +6,7 @@
   --parchment: #faf8f4;
   --map-blue: #6b8e9f;
   --map-blue-light: #a8c8d8;
+  --font-elms: 'Elms Sans', sans-serif;
 }
 
 @theme inline {
@@ -20,6 +21,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --font-elms: 'Elms Sans', sans-serif;
+    --font-geist-sans: 'Geist', sans-serif;
+    --font-serif: 'Garamond', 'Georgia', serif;
+
     --background: #2c2416;
     --foreground: #f5f1e8;
     --parchment: #3d3829;
@@ -32,6 +37,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Garamond', 'Georgia', serif;
+  font-family: var(--font-elms); 
 }
 
 html {
