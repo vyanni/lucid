@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Lucid News Agent",
   description: "Unbiased news analysis and perspective aggregation",
+  icons: {
+    icon: '/image.png', 
+  },
 };
 
 export default function RootLayout({
